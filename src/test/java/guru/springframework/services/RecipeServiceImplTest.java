@@ -20,9 +20,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.*;
 
-/**
- * Created by jt on 6/17/17.
- */
 public class RecipeServiceImplTest {
 
     RecipeServiceImpl recipeService;
@@ -102,8 +99,6 @@ public class RecipeServiceImplTest {
 
         //when
         recipeService.deleteById(idToDelete);
-
-        //no 'when', since method has void return type
 
         //then
         verify(recipeReactiveRepository, times(1)).deleteById(anyString());
