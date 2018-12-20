@@ -30,7 +30,6 @@ public class RecipeReactiveRepositoryIT {
         recipeReactiveRepository.save(recipe).block();
 
         Long count = recipeReactiveRepository.count().block();
-        System.out.println("########");
         assertEquals(Long.valueOf(1L), count);
 
     }
