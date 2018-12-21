@@ -14,8 +14,10 @@ import java.util.Set;
 @Setter
 @Document
 public class Category {
+
     @Id
-    private String id;
-    private String description;
-    private Set<Recipe> recipes;
+    String id;
+
+    String description;
+    Set<Recipe> recipes;
 }

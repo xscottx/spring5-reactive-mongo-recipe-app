@@ -13,6 +13,7 @@ import org.springframework.data.annotation.Id;
 public class Notes {
 
     @Id
-    private String id;
-    private String recipeNotes;
+    String id;
+
+    String recipeNotes;
 }

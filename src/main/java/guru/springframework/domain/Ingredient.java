@@ -13,10 +13,10 @@ import java.util.UUID;
 @Setter
 public class Ingredient {
 
-    private String id = UUID.randomUUID().toString();
-    private String description;
-    private BigDecimal amount;
-    private UnitOfMeasure uom;
+    String id = UUID.randomUUID().toString();
+    String description;
+    BigDecimal amount;
+    UnitOfMeasure uom;
 
     public Ingredient() {
 

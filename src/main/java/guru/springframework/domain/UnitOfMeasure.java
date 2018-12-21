@@ -15,6 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class UnitOfMeasure {
 
     @Id
-    private String id;
-    private String description;
+    String id;
+
+    String description;
 }
